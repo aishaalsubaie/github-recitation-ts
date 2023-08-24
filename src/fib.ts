@@ -1,12 +1,12 @@
 // util function that computes the fibonacci numbers
-export function fibonacci(n:number) :number {
-  if (n < 0) {
+export function fibonacci(nu:number) :number {
+  if (nu < 0) {
     return -1;
-  } else if (n == 0) {
+  } else if (nu == 0) {
     return 0;
-  } else if (n == 1) {
+  } else if (nu == 1) {
     return 1;
   }
 
-  return fibonacci(n - 1) + fibonacci(n - 2);
+  return fibonacci(nu - 1) + fibonacci(nu - 2);
 }
