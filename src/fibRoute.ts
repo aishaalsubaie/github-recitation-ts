@@ -1,4 +1,4 @@
-
+// Endpoint for querying the fibonacci numbers
 import {fibonacci} from "./fib";
 import {Request, Response} from 'express';
 
